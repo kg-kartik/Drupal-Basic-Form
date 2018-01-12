@@ -1,7 +1,10 @@
 users.form:
  path: '/users-form'
+ #Location where the form will be located,i.e, <siteurl>/users-form
  defaults:
    _title: 'Form containning basic details of users'
+   #Title describing the form
    _form: '\Drupal\users\Form\usersForm'
  requirements:
    _permission: 'access content'
+   #Permissions required by the module
