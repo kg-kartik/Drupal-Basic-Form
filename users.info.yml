@@ -1,0 +1,11 @@
+name: users
+#Name of the module
+description: Form to fetch the details of the users and then display them. 
+#About the module
+core: 8.x
+#Verison of drupal core required for the module
+package: Form
+#Name of the package
+type: module
+#Name of the project
+

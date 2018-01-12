@@ -1,0 +1,7 @@
+users.form:
+ path: '/users-form'
+ defaults:
+   _title: 'Form containning basic details of users'
+   _form: '\Drupal\users\Form\usersForm'
+ requirements:
+   _permission: 'access content'
