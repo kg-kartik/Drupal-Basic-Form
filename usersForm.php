@@ -71,7 +71,7 @@ class UsersForm extends FormBase {
     drupal_set_message('Your Details:');
     drupal_set_message('Name: ' . $form_state->getValue('users_name'));
     drupal_set_message('Age: ' . $form_state->getValue('users_age'));
-    drupal_set_message('Date of Birth: ' . date("d-m-y", ($form_state->getValue('users_dob'))));
+    drupal_set_message('Date of Birth: ' . date("d-m-y",strtotime ($form_state->getValue('users_dob'))));
     drupal_set_message('Gender: ' . $form_state->getValue('users_gender'));
   } // Displaying the details input by the user in the fields, on the form page
 
